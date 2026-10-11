@@ -1,0 +1,18 @@
+[package]
+name = "bogons"
+version = "1.4.1"
+edition = "2021"
+authors = ["Darren O'Connor <mellow.drifter@gmail.com>"]
+description = "Lean, high-performance, zero-allocation IP and ASN bogon validation library with RFC descriptions"
+license = "Apache-2.0"
+repository = "https://github.com/mellowdrifter/rust-bogons"
+homepage = "https://github.com/mellowdrifter/rust-bogons"
+readme = "README.md"
+keywords = ["bogon", "bgp", "networking", "ip", "asn"]
+categories = ["network-programming", "no-std"]
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
